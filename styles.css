@@ -1,0 +1,83 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004080;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+section h2{
+    text-align: center;
+}
+
+#carousel {
+    text-align: center;
+}
+
+#services {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.service {
+    margin-bottom: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#contact-info{
+    width: 50%;
+}
+
+#contact-form {
+    width: 50%;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #004080;
+    color: #fff;
+    padding: 10px;
+}
